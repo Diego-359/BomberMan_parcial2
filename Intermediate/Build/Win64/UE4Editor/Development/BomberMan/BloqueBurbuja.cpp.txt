@@ -1,0 +1,7 @@
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win64\UE4Editor\Development\BomberMan\Definitions.BomberMan.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Source\BomberMan\BloqueBurbuja.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Source\BomberMan\Bloque.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Source\BomberMan\TiposBloque.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win64\UE4Editor\Inc\BomberMan\TiposBloque.generated.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win64\UE4Editor\Inc\BomberMan\Bloque.generated.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win64\UE4Editor\Inc\BomberMan\BloqueBurbuja.generated.h

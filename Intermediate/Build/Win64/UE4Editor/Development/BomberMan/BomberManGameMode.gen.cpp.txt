@@ -6,4 +6,8 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Source\BomberMan\Bloque.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Source\BomberMan\TiposBloque.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win64\UE4Editor\Inc\BomberMan\TiposBloque.generated.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win64\UE4Editor\Inc\BomberMan\Bloque.generated.h
 C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win64\UE4Editor\Inc\BomberMan\BomberManGameMode.generated.h

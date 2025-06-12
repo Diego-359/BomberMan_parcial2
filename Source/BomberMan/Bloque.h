@@ -19,6 +19,8 @@ public:
 	UPROPERTY(EditAnywhere)
 	ETipoBloque Tipo; // Type of the block
 
+	int IDBloque; // Unique identifier for the block
+
 protected:
 	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent* Mesh; // Mesh component for the block

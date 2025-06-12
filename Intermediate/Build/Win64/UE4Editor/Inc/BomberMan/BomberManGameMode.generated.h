@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BOMBERMAN_BomberManGameMode_generated_h
 
-#define BomberMan_Source_BomberMan_BomberManGameMode_h_12_SPARSE_DATA
-#define BomberMan_Source_BomberMan_BomberManGameMode_h_12_RPC_WRAPPERS
-#define BomberMan_Source_BomberMan_BomberManGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define BomberMan_Source_BomberMan_BomberManGameMode_h_12_INCLASS_NO_PURE_DECLS \
+#define BomberMan_Source_BomberMan_BomberManGameMode_h_14_SPARSE_DATA
+#define BomberMan_Source_BomberMan_BomberManGameMode_h_14_RPC_WRAPPERS
+#define BomberMan_Source_BomberMan_BomberManGameMode_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define BomberMan_Source_BomberMan_BomberManGameMode_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABomberManGameMode(); \
 	friend struct Z_Construct_UClass_ABomberManGameMode_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ABomberManGameMode)
 
 
-#define BomberMan_Source_BomberMan_BomberManGameMode_h_12_INCLASS \
+#define BomberMan_Source_BomberMan_BomberManGameMode_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesABomberManGameMode(); \
 	friend struct Z_Construct_UClass_ABomberManGameMode_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ABomberManGameMode)
 
 
-#define BomberMan_Source_BomberMan_BomberManGameMode_h_12_STANDARD_CONSTRUCTORS \
+#define BomberMan_Source_BomberMan_BomberManGameMode_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	BOMBERMAN_API ABomberManGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABomberManGameMode) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define BomberMan_Source_BomberMan_BomberManGameMode_h_12_ENHANCED_CONSTRUCTORS \
+#define BomberMan_Source_BomberMan_BomberManGameMode_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	BOMBERMAN_API ABomberManGameMode(ABomberManGameMode&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABomberManGameMode)
 
 
-#define BomberMan_Source_BomberMan_BomberManGameMode_h_12_PRIVATE_PROPERTY_OFFSET
-#define BomberMan_Source_BomberMan_BomberManGameMode_h_9_PROLOG
-#define BomberMan_Source_BomberMan_BomberManGameMode_h_12_GENERATED_BODY_LEGACY \
+#define BomberMan_Source_BomberMan_BomberManGameMode_h_14_PRIVATE_PROPERTY_OFFSET
+#define BomberMan_Source_BomberMan_BomberManGameMode_h_11_PROLOG
+#define BomberMan_Source_BomberMan_BomberManGameMode_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BomberMan_Source_BomberMan_BomberManGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
-	BomberMan_Source_BomberMan_BomberManGameMode_h_12_SPARSE_DATA \
-	BomberMan_Source_BomberMan_BomberManGameMode_h_12_RPC_WRAPPERS \
-	BomberMan_Source_BomberMan_BomberManGameMode_h_12_INCLASS \
-	BomberMan_Source_BomberMan_BomberManGameMode_h_12_STANDARD_CONSTRUCTORS \
+	BomberMan_Source_BomberMan_BomberManGameMode_h_14_PRIVATE_PROPERTY_OFFSET \
+	BomberMan_Source_BomberMan_BomberManGameMode_h_14_SPARSE_DATA \
+	BomberMan_Source_BomberMan_BomberManGameMode_h_14_RPC_WRAPPERS \
+	BomberMan_Source_BomberMan_BomberManGameMode_h_14_INCLASS \
+	BomberMan_Source_BomberMan_BomberManGameMode_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define BomberMan_Source_BomberMan_BomberManGameMode_h_12_GENERATED_BODY \
+#define BomberMan_Source_BomberMan_BomberManGameMode_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BomberMan_Source_BomberMan_BomberManGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
-	BomberMan_Source_BomberMan_BomberManGameMode_h_12_SPARSE_DATA \
-	BomberMan_Source_BomberMan_BomberManGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	BomberMan_Source_BomberMan_BomberManGameMode_h_12_INCLASS_NO_PURE_DECLS \
-	BomberMan_Source_BomberMan_BomberManGameMode_h_12_ENHANCED_CONSTRUCTORS \
+	BomberMan_Source_BomberMan_BomberManGameMode_h_14_PRIVATE_PROPERTY_OFFSET \
+	BomberMan_Source_BomberMan_BomberManGameMode_h_14_SPARSE_DATA \
+	BomberMan_Source_BomberMan_BomberManGameMode_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	BomberMan_Source_BomberMan_BomberManGameMode_h_14_INCLASS_NO_PURE_DECLS \
+	BomberMan_Source_BomberMan_BomberManGameMode_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
