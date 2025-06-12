@@ -38,4 +38,6 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 */
+public:
+	virtual ABloque* Clonar(FVector nuevaPos, UWorld* mundo);
 };

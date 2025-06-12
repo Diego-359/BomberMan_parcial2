@@ -37,4 +37,16 @@ void ABloque::Tick(float DeltaTime)
 
 }
 */
+//LAB3
+ABloque* ABloque::Clonar(FVector nuevaPos, UWorld* mundo)
+{
+	FActorSpawnParameters parametros;
+	ABloque* nuevoBloque = mundo->SpawnActor<ABloque>(GetClass(), nuevaPos, FRotator::ZeroRotator, parametros);
+	
+	if (nuevoBloque)
+	{
+		nuevoBloque->SetActorScale3D(FVector(6.0f, 6.0f, 6.0f));
+	}
+	return nuevoBloque;
+}
 

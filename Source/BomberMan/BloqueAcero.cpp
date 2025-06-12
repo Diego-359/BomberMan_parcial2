@@ -33,3 +33,6 @@ void ABloqueAcero::ComportamientoGrupal()
 	UE_LOG(LogTemp, Warning, TEXT("Bloque de acero no se puede destruir con bomba"));
 	SetActorLocation(GetActorLocation() - FVector(0, 0, 20)); 
 }
+
+
+
