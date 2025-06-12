@@ -1,0 +1,9 @@
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win64\UE4Editor\Development\BomberMan\Definitions.BomberMan.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Source\BomberMan/BloqueMadera.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Source\BomberMan\Bloque.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Source\BomberMan\TiposBloque.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win64\UE4Editor\Inc\BomberMan\TiposBloque.generated.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win64\UE4Editor\Inc\BomberMan\Bloque.generated.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win64\UE4Editor\Inc\BomberMan\BloqueMadera.generated.h

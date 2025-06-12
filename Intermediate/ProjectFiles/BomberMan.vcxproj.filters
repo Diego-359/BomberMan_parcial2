@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\BomberMan.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{68F824AB-B786-4B0A-B803-0617955893D9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BomberMan.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BomberManEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{7602795B-7EB3-456D-A1A2-6EC96EBDBC2D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\BomberMan">
+      <UniqueIdentifier>{213B65AD-EAF9-4462-96D8-2EE2D98E771C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BomberMan\Bloque.cpp">
+      <Filter>Source\BomberMan</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BomberMan\Bloque.h">
+      <Filter>Source\BomberMan</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BomberMan\BloqueMadera.cpp">
+      <Filter>Source\BomberMan</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BomberMan\BloqueMadera.h">
+      <Filter>Source\BomberMan</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\BomberMan\BomberMan.Build.cs">
+      <Filter>Source\BomberMan</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BomberMan\BomberMan.cpp">
+      <Filter>Source\BomberMan</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BomberMan\BomberMan.h">
+      <Filter>Source\BomberMan</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BomberMan\BomberManCharacter.cpp">
+      <Filter>Source\BomberMan</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BomberMan\BomberManCharacter.h">
+      <Filter>Source\BomberMan</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BomberMan\BomberManGameMode.cpp">
+      <Filter>Source\BomberMan</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BomberMan\BomberManGameMode.h">
+      <Filter>Source\BomberMan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BomberMan\TiposBloque.h">
+      <Filter>Source\BomberMan</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
