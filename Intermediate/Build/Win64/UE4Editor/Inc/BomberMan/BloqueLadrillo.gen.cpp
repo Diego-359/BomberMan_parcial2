@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeBloqueLadrillo() {}
 	BOMBERMAN_API UClass* Z_Construct_UClass_ABloqueLadrillo();
 	BOMBERMAN_API UClass* Z_Construct_UClass_ABloque();
 	UPackage* Z_Construct_UPackage__Script_BomberMan();
+	BOMBERMAN_API UClass* Z_Construct_UClass_UIBloqueComponente_NoRegister();
 // End Cross Module References
 	void ABloqueLadrillo::StaticRegisterNativesABloqueLadrillo()
 	{
@@ -31,6 +32,7 @@ void EmptyLinkFunctionForGeneratedCodeBloqueLadrillo() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+		static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +47,9 @@ void EmptyLinkFunctionForGeneratedCodeBloqueLadrillo() {}
 		{ "ModuleRelativePath", "BloqueLadrillo.h" },
 	};
 #endif
+		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_ABloqueLadrillo_Statics::InterfaceParams[] = {
+			{ Z_Construct_UClass_UIBloqueComponente_NoRegister, (int32)VTABLE_OFFSET(ABloqueLadrillo, IIBloqueComponente), false },
+		};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABloqueLadrillo_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABloqueLadrillo>::IsAbstract,
 	};
@@ -55,11 +60,11 @@ void EmptyLinkFunctionForGeneratedCodeBloqueLadrillo() {}
 		DependentSingletons,
 		nullptr,
 		nullptr,
-		nullptr,
+		InterfaceParams,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
-		0,
+		UE_ARRAY_COUNT(InterfaceParams),
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ABloqueLadrillo_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ABloqueLadrillo_Statics::Class_MetaDataParams))
 	};
@@ -72,7 +77,7 @@ void EmptyLinkFunctionForGeneratedCodeBloqueLadrillo() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABloqueLadrillo, 236072474);
+	IMPLEMENT_CLASS(ABloqueLadrillo, 3583833102);
 	template<> BOMBERMAN_API UClass* StaticClass<ABloqueLadrillo>()
 	{
 		return ABloqueLadrillo::StaticClass();

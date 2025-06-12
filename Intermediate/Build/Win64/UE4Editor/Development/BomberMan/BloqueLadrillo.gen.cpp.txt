@@ -6,4 +6,6 @@ C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Source\BomberMan\Bloqu
 C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Source\BomberMan\TiposBloque.h
 C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win64\UE4Editor\Inc\BomberMan\TiposBloque.generated.h
 C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win64\UE4Editor\Inc\BomberMan\Bloque.generated.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Source\BomberMan\IBloqueComponente.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win64\UE4Editor\Inc\BomberMan\IBloqueComponente.generated.h
 C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win64\UE4Editor\Inc\BomberMan\BloqueLadrillo.generated.h

@@ -38,3 +38,7 @@ void ABloqueLadrillo::ComportamientoGrupal()
 
 }
 
+void ABloqueLadrillo::MostrarInformacion()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Bloque de ladrillo  operando"));
+}

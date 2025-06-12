@@ -5,6 +5,8 @@ C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win
 C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Source\BomberMan\BloqueMadera.h
 C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Source\BomberMan\Bloque.h
 C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win64\UE4Editor\Inc\BomberMan\Bloque.generated.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Source\BomberMan\IBloqueComponente.h
+C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win64\UE4Editor\Inc\BomberMan\IBloqueComponente.generated.h
 C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win64\UE4Editor\Inc\BomberMan\BloqueMadera.generated.h
 C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Source\BomberMan\BloqueLadrillo.h
 C:\Users\Diegogreimon\Documents\Unreal Projects\BomberMan\Intermediate\Build\Win64\UE4Editor\Inc\BomberMan\BloqueLadrillo.generated.h

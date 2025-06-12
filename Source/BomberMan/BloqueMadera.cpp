@@ -50,3 +50,7 @@ void ABloqueMadera::Tick(float DeltaTime)
 
 }*/
 
+void ABloqueMadera::MostrarInformacion()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Bloque de madera operando"));
+}

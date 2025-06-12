@@ -13,28 +13,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BOMBERMAN_BloqueMadera_generated_h
 
-#define BomberMan_Source_BomberMan_BloqueMadera_h_13_SPARSE_DATA
-#define BomberMan_Source_BomberMan_BloqueMadera_h_13_RPC_WRAPPERS
-#define BomberMan_Source_BomberMan_BloqueMadera_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define BomberMan_Source_BomberMan_BloqueMadera_h_13_INCLASS_NO_PURE_DECLS \
+#define BomberMan_Source_BomberMan_BloqueMadera_h_14_SPARSE_DATA
+#define BomberMan_Source_BomberMan_BloqueMadera_h_14_RPC_WRAPPERS
+#define BomberMan_Source_BomberMan_BloqueMadera_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define BomberMan_Source_BomberMan_BloqueMadera_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABloqueMadera(); \
 	friend struct Z_Construct_UClass_ABloqueMadera_Statics; \
 public: \
 	DECLARE_CLASS(ABloqueMadera, ABloque, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/BomberMan"), NO_API) \
-	DECLARE_SERIALIZER(ABloqueMadera)
+	DECLARE_SERIALIZER(ABloqueMadera) \
+	virtual UObject* _getUObject() const override { return const_cast<ABloqueMadera*>(this); }
 
 
-#define BomberMan_Source_BomberMan_BloqueMadera_h_13_INCLASS \
+#define BomberMan_Source_BomberMan_BloqueMadera_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesABloqueMadera(); \
 	friend struct Z_Construct_UClass_ABloqueMadera_Statics; \
 public: \
 	DECLARE_CLASS(ABloqueMadera, ABloque, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/BomberMan"), NO_API) \
-	DECLARE_SERIALIZER(ABloqueMadera)
+	DECLARE_SERIALIZER(ABloqueMadera) \
+	virtual UObject* _getUObject() const override { return const_cast<ABloqueMadera*>(this); }
 
 
-#define BomberMan_Source_BomberMan_BloqueMadera_h_13_STANDARD_CONSTRUCTORS \
+#define BomberMan_Source_BomberMan_BloqueMadera_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABloqueMadera(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABloqueMadera) \
@@ -47,7 +49,7 @@ private: \
 public:
 
 
-#define BomberMan_Source_BomberMan_BloqueMadera_h_13_ENHANCED_CONSTRUCTORS \
+#define BomberMan_Source_BomberMan_BloqueMadera_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABloqueMadera(ABloqueMadera&&); \
@@ -58,28 +60,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABloqueMadera)
 
 
-#define BomberMan_Source_BomberMan_BloqueMadera_h_13_PRIVATE_PROPERTY_OFFSET
-#define BomberMan_Source_BomberMan_BloqueMadera_h_10_PROLOG
-#define BomberMan_Source_BomberMan_BloqueMadera_h_13_GENERATED_BODY_LEGACY \
+#define BomberMan_Source_BomberMan_BloqueMadera_h_14_PRIVATE_PROPERTY_OFFSET
+#define BomberMan_Source_BomberMan_BloqueMadera_h_11_PROLOG
+#define BomberMan_Source_BomberMan_BloqueMadera_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BomberMan_Source_BomberMan_BloqueMadera_h_13_PRIVATE_PROPERTY_OFFSET \
-	BomberMan_Source_BomberMan_BloqueMadera_h_13_SPARSE_DATA \
-	BomberMan_Source_BomberMan_BloqueMadera_h_13_RPC_WRAPPERS \
-	BomberMan_Source_BomberMan_BloqueMadera_h_13_INCLASS \
-	BomberMan_Source_BomberMan_BloqueMadera_h_13_STANDARD_CONSTRUCTORS \
+	BomberMan_Source_BomberMan_BloqueMadera_h_14_PRIVATE_PROPERTY_OFFSET \
+	BomberMan_Source_BomberMan_BloqueMadera_h_14_SPARSE_DATA \
+	BomberMan_Source_BomberMan_BloqueMadera_h_14_RPC_WRAPPERS \
+	BomberMan_Source_BomberMan_BloqueMadera_h_14_INCLASS \
+	BomberMan_Source_BomberMan_BloqueMadera_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define BomberMan_Source_BomberMan_BloqueMadera_h_13_GENERATED_BODY \
+#define BomberMan_Source_BomberMan_BloqueMadera_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BomberMan_Source_BomberMan_BloqueMadera_h_13_PRIVATE_PROPERTY_OFFSET \
-	BomberMan_Source_BomberMan_BloqueMadera_h_13_SPARSE_DATA \
-	BomberMan_Source_BomberMan_BloqueMadera_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	BomberMan_Source_BomberMan_BloqueMadera_h_13_INCLASS_NO_PURE_DECLS \
-	BomberMan_Source_BomberMan_BloqueMadera_h_13_ENHANCED_CONSTRUCTORS \
+	BomberMan_Source_BomberMan_BloqueMadera_h_14_PRIVATE_PROPERTY_OFFSET \
+	BomberMan_Source_BomberMan_BloqueMadera_h_14_SPARSE_DATA \
+	BomberMan_Source_BomberMan_BloqueMadera_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	BomberMan_Source_BomberMan_BloqueMadera_h_14_INCLASS_NO_PURE_DECLS \
+	BomberMan_Source_BomberMan_BloqueMadera_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

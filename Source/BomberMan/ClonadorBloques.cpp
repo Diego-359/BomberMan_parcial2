@@ -21,12 +21,17 @@ void AClonadorBloques::BeginPlay()
 	
 	UWorld* mundo = GetWorld();
 
+	int limite = 0;
 	if (!mundo) return;
 	for (TActorIterator<ABloque> it(mundo); it; ++it)
 	{
 		ABloque* original = *it;
-		FVector nuevaPos = original->GetActorLocation() + FVector(500, 0, 100); // Adjust the Z offset as needed
-		original->Clonar(nuevaPos, mundo);
+		if (original->GetActorScale3D().X < 2.0f)  // Solo clonar si no es el gigante
+		{
+			original->Clonar(original->GetActorLocation() + FVector(500, 0, 100), mundo);
+			limite++;
+		}
+	 
 	}
 }
 

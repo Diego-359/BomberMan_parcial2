@@ -4,13 +4,14 @@
 
 #include "CoreMinimal.h"
 #include "Bloque.h"
+#include "IBloqueComponente.h"
 #include "BloqueLadrillo.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class BOMBERMAN_API ABloqueLadrillo : public ABloque
+class BOMBERMAN_API ABloqueLadrillo : public ABloque, public IIBloqueComponente
 {
 	GENERATED_BODY()
 public:
@@ -19,5 +20,8 @@ public:
 
 	virtual void ComportamientoIndividual() override;
 	virtual void ComportamientoGrupal() override;
+
+public:
+	virtual void MostrarInformacion() override;
 };
 
