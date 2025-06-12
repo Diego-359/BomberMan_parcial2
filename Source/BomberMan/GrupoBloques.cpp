@@ -31,6 +31,10 @@ void AGrupoBloques::MostrarInformacion()
 {
 	for (IIBloqueComponente* Bloque : Componentes)
 	{
-		Bloque->MostrarInformacion();
+		if (Bloque)
+		{
+			Bloque->MostrarInformacion();
+		}
+		
 	}
 }

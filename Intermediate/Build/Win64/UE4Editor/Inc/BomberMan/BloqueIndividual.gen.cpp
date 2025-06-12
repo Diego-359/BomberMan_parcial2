@@ -18,6 +18,8 @@ void EmptyLinkFunctionForGeneratedCodeBloqueIndividual() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_BomberMan();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	BOMBERMAN_API UClass* Z_Construct_UClass_UIBloqueComponente_NoRegister();
 // End Cross Module References
 	void ABloqueIndividual::StaticRegisterNativesABloqueIndividual()
@@ -37,6 +39,10 @@ void EmptyLinkFunctionForGeneratedCodeBloqueIndividual() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Mesh_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Mesh;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TipoBloque_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_TipoBloque;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
@@ -60,8 +66,16 @@ void EmptyLinkFunctionForGeneratedCodeBloqueIndividual() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABloqueIndividual_Statics::NewProp_Mesh = { "Mesh", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABloqueIndividual, Mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABloqueIndividual_Statics::NewProp_Mesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABloqueIndividual_Statics::NewProp_Mesh_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABloqueIndividual_Statics::NewProp_TipoBloque_MetaData[] = {
+		{ "Category", "BloqueIndividual" },
+		{ "ModuleRelativePath", "BloqueIndividual.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ABloqueIndividual_Statics::NewProp_TipoBloque = { "TipoBloque", nullptr, (EPropertyFlags)0x0044000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABloqueIndividual, TipoBloque), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ABloqueIndividual_Statics::NewProp_TipoBloque_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABloqueIndividual_Statics::NewProp_TipoBloque_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABloqueIndividual_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABloqueIndividual_Statics::NewProp_Mesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABloqueIndividual_Statics::NewProp_TipoBloque,
 	};
 		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_ABloqueIndividual_Statics::InterfaceParams[] = {
 			{ Z_Construct_UClass_UIBloqueComponente_NoRegister, (int32)VTABLE_OFFSET(ABloqueIndividual, IIBloqueComponente), false },
@@ -93,7 +107,7 @@ void EmptyLinkFunctionForGeneratedCodeBloqueIndividual() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABloqueIndividual, 3137486134);
+	IMPLEMENT_CLASS(ABloqueIndividual, 3307378037);
 	template<> BOMBERMAN_API UClass* StaticClass<ABloqueIndividual>()
 	{
 		return ABloqueIndividual::StaticClass();

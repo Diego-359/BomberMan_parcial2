@@ -25,6 +25,7 @@ private:
 	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* Mesh;
 
-
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AActor> TipoBloque;
 
 };

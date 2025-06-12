@@ -23,5 +23,9 @@ void ABloqueIndividual::BeginPlay()
 
 void ABloqueIndividual::MostrarInformacion()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Error de formato"));
+	if (TipoBloque)
+	{
+		FVector Posicion = GetActorLocation();  
+		GetWorld()->SpawnActor<AActor>(TipoBloque, Posicion, FRotator::ZeroRotator);
+	}
 }

@@ -61,7 +61,8 @@ public: \
 
 
 #define BomberMan_Source_BomberMan_BloqueIndividual_h_13_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__Mesh() { return STRUCT_OFFSET(ABloqueIndividual, Mesh); }
+	FORCEINLINE static uint32 __PPO__Mesh() { return STRUCT_OFFSET(ABloqueIndividual, Mesh); } \
+	FORCEINLINE static uint32 __PPO__TipoBloque() { return STRUCT_OFFSET(ABloqueIndividual, TipoBloque); }
 
 
 #define BomberMan_Source_BomberMan_BloqueIndividual_h_10_PROLOG
