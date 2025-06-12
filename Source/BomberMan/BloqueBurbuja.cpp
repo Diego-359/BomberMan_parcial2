@@ -15,13 +15,21 @@ ABloqueBurbuja::ABloqueBurbuja()
 	{
 		Mesh->SetStaticMesh(MeshAsset.Object);
 	}
+	static ConstructorHelpers::FObjectFinder<UMaterial> MaterialAsset(TEXT("Material'/Game/StarterContent/Materials/M_Water_Lake.M_Water_Lake'"));
+	if (MaterialAsset.Succeeded())
+	{
+		Mesh->SetMaterial(0, MaterialAsset.Object);
+	}
 }
 void ABloqueBurbuja::ComportamientoIndividual()
 {
 	UE_LOG(LogTemp, Warning, TEXT("BloqueBurbuja::ComportamientoIndividual() called."));
+	SetActorLocation(GetActorLocation() + FVector(0, 0, 20)); //un auto volo sobre mi con su rasho laser
 }
+
 void ABloqueBurbuja::ComportamientoGrupal()
 {
 	UE_LOG(LogTemp, Warning, TEXT("BloqueBurbuja::ComportamientoGrupal() called."));
+	SetActorLocation(GetActorLocation() + FVector(0, 0, 50));
 	// Additional behavior when the bubble block is destroyed can be added here
 }
